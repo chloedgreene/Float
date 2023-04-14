@@ -8,6 +8,13 @@ edition = "2021"
 [dependencies]
 macroquad = "*"
 image = "*"
-serde_json = "1.0"
+serde_json = "*"
 lazy_static = "*"
-hex_color = "2"
+hex_color = "*"
+
+
+#Release build will take a g e s to to compile, but will work!
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
