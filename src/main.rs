@@ -26,7 +26,7 @@ fn window_conf() -> Conf {
         fullscreen: false,
         window_width: 970,
         window_height: 600,
-        window_resizable: false,
+        window_resizable: true,
         ..Default::default()
     }
 }
@@ -186,7 +186,6 @@ pub fn draw(
             let phi = left + r_delta * screen_x as f32;
             let map_x = camx + phi.cos() * z;
             let map_y = camz + phi.sin() * z;
-            println!("{}",phi);
 
 
             // get color and height from map at the point
