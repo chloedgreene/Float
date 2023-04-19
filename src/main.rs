@@ -22,7 +22,7 @@ mod titlescreen;
 
 fn window_conf() -> Conf {
     Conf {
-        window_title: "Float".to_owned(),
+        window_title: "Float - PROTOTYPE CHLOETGREENE HOLDINGS LLC".to_owned(),
         fullscreen: false,
         window_width: 970,
         window_height: 600,
