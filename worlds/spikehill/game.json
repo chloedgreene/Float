@@ -1,7 +1,0 @@
-{
-    "sky_colour": "#87ebde",
-    "maps" : {
-        "colour_map": "./c.png",
-        "depth_map":  "./d.png"
-    }
-}

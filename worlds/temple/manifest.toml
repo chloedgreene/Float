@@ -1,0 +1,8 @@
+name = "Temple Map"
+
+[maps]
+depth = "d.png"
+colour = "c.png"
+
+[world]
+skybox = "#87CEEB"
