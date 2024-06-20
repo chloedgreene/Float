@@ -105,7 +105,8 @@ fn main() {
     info!("Loaded initial Map {}",initial_map.manifest.name);
 
 
-
+    //Now lets setup Rendering Core :3
+    
 
 
 }
